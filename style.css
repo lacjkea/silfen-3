@@ -200,11 +200,13 @@ article {
 
 /* shop page */
 #videoBG {
-  object-fit: cover;
+  /* object-fit: cover;
   object-position: center;
   width: 80%;
-  height: fit-content;
+  height: fit-content; */
   margin: 0 auto;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 .shop_intro {
