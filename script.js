@@ -6,8 +6,9 @@ function delay() {
 }
 
 function startVideo() {
-  document.querySelector("video").play();
-  document.querySelector("video").muted = false;
+  const videoEl = document.querySelector("video");
+  videoEl.play();
+  videoEl.muted = false;
 }
 
 const url = "https://zuzanacreates.com/wp21d/wp-json/wp/v2/bag?_embed";
